@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WebExpertコーステンプレート</title>
+  </head>
+  <body>
+    <h2>クイズ</h2>
+    <h3>一番好きな食べ物はどれでしょう</h3>
+    <button id="button1">うどん</button>
+    <button id="button2">牛タン</button>
+    <button id="button3">いちご</button>
+  </div>
+  <div id="feedback"></div>
+
+
+    <script>
+      const button_1 = document.getElementById("button1");
+      const button_2 = document.getElementById("button2");
+      const button_3 = document.getElementById("button3");
+      const feedback = document.getElementById("feedback");
+      button_1.onclick = function(){
+      feedback.textContent="正解です"  
+      }
+      button_2.onclick = function(){
+      feedback.textContent="不正解です"
+      }
+      button_3.onclick = function(){
+      feedback.textContent="不正解です"    
+      }
+    </script>
+  </body>
+</html> 
