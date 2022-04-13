@@ -33,3 +33,4 @@ const multiply = function (x, y) {
 const plusRound = function (x, y) {
   return Math.round(x + y)
 }
+conosol
