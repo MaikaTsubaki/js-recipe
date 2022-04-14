@@ -1,7 +1,5 @@
-const number = 24
+const figure = document.getElementById("figure")
 
-if (number % 3 === 0) {
-  console.log(number + "!!!!!!!")
-} else {
-  console.log(number)
+figure.onclick = function () {
+  figure.classList.toggle("rounded")
 }
